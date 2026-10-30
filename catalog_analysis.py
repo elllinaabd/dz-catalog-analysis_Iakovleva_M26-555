@@ -190,9 +190,7 @@ def build_report(movies):
     print("\nВсе жанры каталога:", ", ".join(genres))
 
 def main():
-    print(build_report(movies))
+    build_report(movies)
 
 if __name__ == "__main__":
-    main()
-
-    
+    build_report(movies)
